@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media screen and (min-width: 640px) {
+  .gradient-mask-left {
+    mask-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 1) 90%,
+      transparent 100%
+    );
+  }
+
+  .gradient-mask-right {
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1) 90%,
+      transparent 100%
+    );
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+.floating-animation {
+  animation-name: floating;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.heroimg {
+  filter: drop-shadow(5px 5px 10px #85c1e9);
+  height: 56px;
+  width: 56px;
+  object-fit: contain;
+  filter: invert(70%) sepia(96%) saturate(558%) hue-rotate(359deg)
+    brightness(103%) contrast(106%);
+}
+.bgHero {
+  background-image: "../../../public/image1.png";
+  object-fit: contain;
+}
+@keyframes floating {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
