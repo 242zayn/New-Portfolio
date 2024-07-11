@@ -37,7 +37,7 @@ export default function Hero() {
           width={300}
         />
 
-        <div className=" xl:w-[80%] lg:w-[40%] flex flex-col items-center    md:items-start justify-center relative    ">
+        <div className=" px-1 md:w-[80%] lg:w-[40%] flex flex-col items-center    md:items-start justify-center relative    ">
           {/* Typewriter start here */}
           <div className=" w-full  flex flex-col gap-y-2 justify-center md:justify-start text-center lg:text-start    ">
             <h1 className="font-light text-[32px] md:text-5xl leading-normal ">
@@ -61,7 +61,7 @@ export default function Hero() {
           <p className=" text-lg  leading-[30px] tracking-wider md:pr-10   ">
             {es.hero.description}
           </p>
-          <div className=" flex gap-4 mx-auto my-5  lg:mt-[50px] w-[60%]  ">
+          <div className=" flex gap-4 mx-auto  my-[25px]  lg:mt-[50px] w-[60%]  ">
             <CvDownload
               icon={faCloudDownloadAlt}
               text={es.hero.downloadbtntext}
