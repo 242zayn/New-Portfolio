@@ -15,6 +15,7 @@ import {
   faShare,
   faCloudDownloadAlt,
 } from "@fortawesome/free-solid-svg-icons";
+import CvDownload from "./cvDownload";
 
 export default function Hero() {
   const TECH_DIRECTORY = "/techs/";
@@ -63,10 +64,9 @@ export default function Hero() {
           </p>
 
           <div className=" flex gap-4 items-center justify-center mt-[50px] w-[60%]  ">
-            <InternalLink
-              href={`#${ToSlug(es.contact.title)}`}
+            <CvDownload
               icon={faCloudDownloadAlt}
-              text={es.services.start}
+              text={es.hero.downloadbtntext}
             />
           </div>
 

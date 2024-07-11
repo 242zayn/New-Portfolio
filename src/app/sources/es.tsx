@@ -18,6 +18,7 @@ const es = {
   country: "India",
   hero: {
     name: "Sarvesh Sharma",
+    downloadbtntext: "CV Download",
     words: [
       "MERN Developer",
       "Full Stack Developer",
