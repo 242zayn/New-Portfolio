@@ -1,6 +1,6 @@
-const PAGE_PREFIX = "DavidQuint's Web Developer";
+const PAGE_PREFIX = "Sarvesh Sharma";
 const PAGE_DESCRIPTION =
-  "¡Hola! Soy David Quintanilla Ruiz, un programador que también incursiona en el mundo del diseño. Me considero un aprendiz rápido, fácilmente adaptable a las necesidades actuales. Ofrezco servicios como desarrollador web, creando soluciones digitales eficientes y personalizadas para satisfacer las demandas de mis clientes.";
+  "Hello! I am Sarvesh , a programmer who also ventures into the world of design. I consider myself a quick learner, easily adaptable to current needs. I offer services as a web developer, creating efficient and personalized digital solutions to meet the demands of my clients.";
 const PAGE_URL = "https://services.davidquintr.com/";
 
 const MetadataBase = {
@@ -9,8 +9,8 @@ const MetadataBase = {
     description: PAGE_DESCRIPTION,
     icons: {
       icon: [
-        { url: "/icon_light.png" },
-        { url: "/icon_dark.png", media: "(prefers-color-scheme: dark)" },
+        { url: "/image1.png" },
+        { url: "/image1.png", media: "(prefers-color-scheme: dark)" },
       ],
     },
   },
@@ -49,10 +49,10 @@ const createPageMetadata = (pageTitle: string) => ({
     googleBot: {
       index: true,
       follow: false,
-    }
-  }
+    },
+  },
 });
 
-const Metadata = createPageMetadata("Servicios");
+const Metadata = createPageMetadata("Sarvesh Sharma");
 
 export default Metadata;

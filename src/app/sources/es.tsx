@@ -12,12 +12,19 @@ import ProjectsEs from "./projects_es";
 
 const es = {
   author: "Sarvesh Sharma",
-  role: "Estudiante de Ingeniería de Sistemas, Programador y Diseñador UI/UX",
+  role: "Systems Engineering Student, Programmer and UI/UX Designer",
   email: "sarveshsharmanci@gmail.com",
   birthday: "12/05/2000",
   country: "India",
   hero: {
-    title: "Services",
+    name: "Sarvesh Sharma",
+    words: [
+      "MERN Developer",
+      "Full Stack Developer",
+      "Frontend Developer",
+      "Backend Developer",
+      "Web Developer",
+    ],
     action: {
       title:
         "¡Haz que tu presencia en línea destaque con nuestras páginas web!",

@@ -15,7 +15,7 @@ const en = {
   role: "System Engineering Student, Programmer and UI/UX Designer",
   email: "davidquintr@gmail.com",
   birthday: "2004/04/19",
-  country: "Nicaragua",
+  country: "India",
   hero: {
     title: "Services",
     action: {
