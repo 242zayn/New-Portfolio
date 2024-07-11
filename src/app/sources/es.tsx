@@ -26,12 +26,10 @@ const es = {
       "Backend Developer",
       "Web Developer",
     ],
-    action: {
-      title:
-        "¡Haz que tu presencia en línea destaque con nuestras páginas web!",
-      description:
-        "Desde la carga inicial hasta la interacción del usuario, garantizamos una experiencia excepcional. Impulsa tu éxito en línea con páginas web veloces, eficaces y responsivas.",
-    },
+
+    description:
+      "You can reach out to me if you need any help in making a website or web application for you business ",
+
     button_aria: "Desplazar",
   },
   technologies: {

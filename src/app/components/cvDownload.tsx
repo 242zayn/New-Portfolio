@@ -28,7 +28,7 @@ export default function CvDownload({ icon, text }: DownloadCV) {
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-    }, 5000);
+    }, 3000);
   };
 
   return (

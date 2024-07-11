@@ -25,9 +25,11 @@ export default function Hero() {
   });
   return (
     <section className="flex items-center flex-col justify-center min-h-screen  dark:bg-black relative bg-white  ">
-      <div className="flex  items-center justify-around w-full h-full  ">
+      <div className="flex flex-col lg:flex-row items-center justify-around w-full h-full  ">
+        {/* <div className=" w-[46%] h-[200px] bg-[url('/image1.png')] ">
+        </div> */}
         <Image
-          className=" w-[46%] grayscale "
+          className=" w-[50%] lg:w-[50%] xl:w-[46%] h-full grayscale "
           src={"/image1.png"}
           alt=""
           quality={100}
@@ -35,9 +37,9 @@ export default function Hero() {
           width={300}
         />
 
-        <div className=" w-full md:w-[40%] flex flex-col items-center   md:items-start justify-center relative    ">
+        <div className=" xl:w-[80%] lg:w-[40%] flex flex-col items-center    md:items-start justify-center relative    ">
           {/* Typewriter start here */}
-          <div className=" w-full  flex flex-col gap-y-2 justify-center md:justify-start     ">
+          <div className=" w-full  flex flex-col gap-y-2 justify-center md:justify-start text-center lg:text-start    ">
             <h1 className="font-light text-[32px] md:text-5xl leading-normal ">
               {" "}
               Hello , <span className="text-dark-blue-100">I&apos;m</span>{" "}
@@ -56,19 +58,17 @@ export default function Hero() {
                 />{" "}
               </span>{" "}
             </h1>
-          </div>
-          <p className=" text-lg  leading-[30px] tracking-wider md:pr-10 text-center md:text-start  ">
-            {" "}
-            You can reach out to me if you need any help in making a website or
-            web application for you business
+          <p className=" text-lg  leading-[30px] tracking-wider md:pr-10   ">
+            {es.hero.description}
           </p>
-
-          <div className=" flex gap-4 items-center justify-center mt-[50px] w-[60%]  ">
+          <div className=" flex gap-4 mx-auto my-5  lg:mt-[50px] w-[60%]  ">
             <CvDownload
               icon={faCloudDownloadAlt}
               text={es.hero.downloadbtntext}
             />
           </div>
+          </div>
+
 
           {/* Typewrite end here */}
         </div>
