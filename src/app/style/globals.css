@@ -58,6 +58,28 @@ body {
   background-image: "../../../public/image1.png";
   object-fit: contain;
 }
+
+.Weserves ::after {
+  content: "";
+  width: 75%;
+  height: 300px;
+  background: linear-gradient(
+    205deg,
+    rgba(5, 14, 29, 0.45) 28.43%,
+    rgba(58, 123, 255, 0.45) 52.04%,
+    rgba(17, 36, 73, 0.45) 110.85%
+  );
+
+  /* background: red; */
+  position: absolute;
+  z-index: -1;
+  border-radius: 836.831px;
+  filter: blur(135px);
+  top: -80px;
+  left: -400px;
+  right: 0;
+}
+
 @keyframes floating {
   0% {
     transform: translatey(0px);
@@ -67,5 +89,23 @@ body {
   }
   100% {
     transform: translatey(0px);
+  }
+}
+
+/* media query here */
+
+@media screen and (min-width: 224px) {
+  .Weserves ::after {
+    left: 100px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .Weserves ::after {
+    left: 100px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .Weserves ::after {
+    left: 100px;
   }
 }
