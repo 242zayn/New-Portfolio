@@ -46,7 +46,7 @@ export default function Hero() {
               <h1 className="font-light text-2xl md:text-3xl lg:text-[40px] leading-normal ">
                 {" "}
                 Hello ,{" "}
-                <span className="text-dark-blue-100 lg:text-3xl ">
+                <span className="text-dark-blue-100 lg:text-3xl  ">
                   I&apos;m
                 </span>{" "}
               </h1>
