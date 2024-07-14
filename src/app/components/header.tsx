@@ -1,44 +1,80 @@
+// import Image from "next/image";
+// import en from "../sources/en";
+// import techStack from "../sources/techStack";
+// import Link from "next/link";
+
+// export default function Header() {
+//   const showTech = [
+//     techStack.html,
+//     techStack.css,
+//     techStack.javascript,
+//     techStack.nextjs,
+//     techStack.php,
+//     techStack.mysql,
+//     techStack.tailwind,
+//   ];
+
+//   return (
+//     <header className="fixed w-full top-0 left-0 z-[100] ">
+//       <nav className=" w-[90%] mx-auto rounded-full  bg-opacity-30 backdrop-filter backdrop-blur-sm shadow-lg py-4 transition duration-300">
+//         <div className="container mx-auto flex justify-center items-center">
+//           <ul className="flex space-x-8">
+//             <li>
+//               <Link href="#home">
+//                 <span className="text-white font-semibold hover:text-gray-700 transition duration-300">
+//                   Home
+//                 </span>
+//               </Link>
+//             </li>
+//             <li>
+//               <Link href="#about">
+//                 <span className="text-white font-semibold hover:text-gray-700 transition duration-300">
+//                   About
+//                 </span>
+//               </Link>
+//             </li>
+//             <li>
+//               <Link href="#contact">
+//                 <span className="text-white font-semibold hover:text-gray-700 transition duration-300">
+//                   Contact
+//                 </span>
+//               </Link>
+//             </li>
+//           </ul>
+//         </div>
+//       </nav>
+//     </header>
+//   );
+// }
+
+// import { Socials } from "@/constants";
 import Image from "next/image";
-import en from "../sources/en";
-import techStack from "../sources/techStack";
+import Link from "next/link";
+import React from "react";
 
-export default function Header() {
-  const showTech = [
-    techStack.html,
-    techStack.css,
-    techStack.javascript,
-    techStack.nextjs,
-    techStack.php,
-    techStack.mysql,
-    techStack.tailwind,
-  ];
-
+const Navbar = () => {
   return (
-    <header className="max-w-[1360px] w-full mx-auto">
-      <div className="flex-col border sm:mx-4 bg-white dark:bg-black border-light-blue-200 dark:border-dark-blue-200 rounded-t-lg p-2.5 sm:p-5 dark:bg-dark-gradient flex justify-center gap-6 min-h-[240px] items-center sm:flex-row">
-        <Image
-          className="rounded-full size-[200px]"
-          src="/davidquint-photo.png"
-          quality={20}
-          width={200}
-          sizes="(max-width: 768px) 28vw, (max-width: 1200px) 18vw, 20vw"
-          priority={true}
-          height={200}
-          alt={en.author}
-          title={en.author}
-        />
-        <div className="gap-1 text-center flex flex-col justify-center sm:text-left">
-          <h1 className="font-bold text-3xl text-light-blue-400 dark:text-dark-blue-100">
-            {en.author}
-          </h1>
-          <p className="text-light-black dark:text-white">{en.role}</p>
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#214a97]/50 bg-[#03001417] backdrop-blur-md z-[52] px-10">
+      <div className="w-full h-full  flex  items-center justify-center  px-[10px]">
+        <div className="w-[500px]  h-full flex  items-center justify-center ">
+          <div className="flex items-center justify-between w-full h-auto border border-[#2156ac61] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
+            <Link href="#home">
+              <span className="">Home</span>
+            </Link>
+            <Link href="#home">
+              <span className="">About</span>
+            </Link>
+            <Link href="#home">
+              <span className="">Project</span>
+            </Link>
+            <Link href="#contact">
+              <span className="">Contect</span>
+            </Link>
+          </div>
         </div>
       </div>
-      <div className="sm:mx-4 dark:bg-black bg-light-blue-500 text-white border-light-blue-200 flex gap-2 border dark:bg-dark-gradient border-t-0 dark:border-dark-blue-200 rounded-b-lg p-2.5 px-2.5 flex-wrap justify-center">
-        {showTech.map((tech, index) => (
-          <tech.icon size="36" key={index} />
-        ))}
-      </div>
-    </header>
+    </div>
   );
-}
+};
+
+export default Navbar;

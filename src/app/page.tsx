@@ -8,11 +8,13 @@ import { faBriefcase, faShare } from "@fortawesome/free-solid-svg-icons";
 import Service from "./components/service";
 import InternalLink from "./components/internalLink";
 import Project from "./components/project";
-import Form from "./components/form";
+// import Form from "./components/form";
 import external from "./sources/external";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ToSlug from "./utils/toSlug";
+import Form from "./components/form";
+import Hero from "./components/hero";
 
 export const metadata: Metadata = MetadataFile;
 
@@ -144,7 +146,7 @@ export default function Home() {
             <div className="flex px-8 gap-2.5 md:gap-6 items-center flex-col md:flex-row">
               <Image
                 className="rounded-full size-[100px] dark:shadow-glow-reduced"
-                src="/davidquint-photo.png"
+                src="/picofme.png"
                 quality={20}
                 width={100}
                 sizes="(max-width: 768px) 14vw, (max-width: 1200px) 9vw, 10vw"

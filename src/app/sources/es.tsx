@@ -33,12 +33,12 @@ const es = {
     button_aria: "Desplazar",
   },
   technologies: {
-    title: "Tecnologías",
+    title: "Technologies",
     action: {
       image: "/action-technologies/computer.png",
-      title: "A la vanguardia de tecnología para tu página web",
+      title: "At the forefront of technology for your website",
       description:
-        "Cada proyecto es una oportunidad para dejar una impresión duradera y construir conexiones significativas entre marcas y su audiencia. Bienvenido a nuestro mundo digital, estamos emocionados de compartir nuestro trabajo contigo.",
+        "Every project is an opportunity to leave a lasting impression and build meaningful connections between brands and their audience. Welcome to our digital world, we are excited to share our work with you",
     },
     tech: [
       tech.wordpress,
@@ -53,107 +53,105 @@ const es = {
       tech.nextjs,
       tech.csharp,
     ],
-    start: "Empieza ahora",
+    start: "Start now",
   },
   services: {
-    title: "Servicios",
+    title: "Services",
     items: [
       {
-        title: "Diseño Personalizado",
-        description: "Teniendo en cuenta tus requerimientos y preferencias.",
+        title: "Personalized design",
+        description: "Taking into account your requirements and preferences.",
         icons: [faGlobe],
         active: true,
       },
       {
-        title: "Diseño Responsive",
+        title: "Responsive Design",
         description: "Navegabilidad entre dispositivos garantizada",
         icons: [faMobile, faTablet],
         active: true,
       },
       {
         title: "E-Commerce",
-        description: "Creación de páginas dedicadas al comercio electrónico.",
+        description: "Creation of pages dedicated to electronic commerce.",
         icons: [faCreditCard],
         active: false,
       },
       {
-        title: "Creamos tu marca",
+        title: "We create your brand",
         description:
-          "En caso de no tener una marca propia, nosotros nos encargamos.",
+          "If you do not have your own brand, we will take care of it ",
         icons: [faStar],
         active: true,
       },
       {
-        title: "Mantenimiento",
-        description:
-          "Soporte personalizado para tus páginas realizadas por terceros.",
+        title: "Maintenance",
+        description: "Personalized support for your third-party pages.",
         icons: [faScrewdriverWrench],
         active: true,
       },
       {
-        title: "Alojamiento web",
-        description:
-          "Te facilitamos el alojamiento de tu página o proyecto web.",
+        title: "Web hosting",
+        description: "We make hosting your website or web project easy",
         icons: [faCloud],
         active: true,
       },
     ],
     action: {
-      title: "¡Haz que tu presencia en línea despegue hoy mismo!",
+      title: "Get your online presence off the ground today!",
       description:
-        "Desde la carga inicial hasta la interacción del usuario, garantizamos una experiencia excepcional. Impulsa tu éxito en línea con páginas web veloces, eficaces y responsivas.",
+        "From initial loading to user interaction, we guarantee an exceptional experience. Boost your online success with fast, efficient and responsive websites.",
     },
     start: "Empieza ahora",
   },
   projects: {
     title: "Proyectos",
-    onlineText: "Ver en línea",
-    sourceText: "Ver código fuente",
-    moreText: "Saber más",
+    onlineText: "Watch online",
+    sourceText: "View source code",
+    moreText: "Know more",
     list: ProjectsEs,
   },
   contact: {
-    title: "Contacto",
-    cta: "¡Si estás buscando ayuda con un proyecto o necesitas asistencia, puedes contactarme!",
+    title: "Contact",
+    cta: "If you are looking for help with a project or need assistance, you can contact me!",
     direct_comm:
-      "¿Quieres una comunicación más directa? Hay otra forma de contactarme:",
+      "Do you want more direct communication? There is another way to contact me:",
     form: {
-      names: "Nombre y Apellido",
-      email: "Correo electrónico",
-      message: "Mensaje",
+      names: "Name and surname",
+      email: "Email",
+      message: "Message",
       success:
-        "¡Tu correo electrónico se ha enviado con éxito! ¡Recibirás una respuesta pronto!",
-      fail: "Algo salió mal, inténtalo más tarde...",
-      send: "Enviar Mensaje",
+        "Your email has been sent successfully! You will receive a response soon!",
+      fail: "Something went wrong, try again later...",
+      send: "Send Message",
     },
-    visit: "Visitar Portafolio",
+    visit: "Visit Portfolio",
   },
   detail_item: {
-    open: "Abrir",
-    emailText: "Correo electrónico",
-    birthdayText: "Fecha de nacimiento",
-    countryText: "País",
+    open: "Open",
+    emailText: "Email",
+    birthdayText: "Birthdate",
+    countryText: "Country",
     cvText: "CV",
   },
   navigation: {
-    home: "Inicio",
+    home: "Start",
     blog: "Blog",
-    projects: "Proyectos",
-    contact: "Contacto",
+    projects: "Projects",
+    contact: "Contact",
   },
   footer: {
-    credits: "©2024 Diseñado y Programado por David Quintanilla",
-    source: "Ver código fuente",
+    credits: "©2024 Designed and Programmed by Sarvesh Sharma",
+    source: "View source code",
   },
   home: {
     experience: {
-      title: "Experiencia Relevante",
+      title: "Relevant experience",
       list: [
         {
-          name: "Universidad Centroamericana",
-          position: "Gerente de Proyecto",
-          location: "Managua, Nicaragua",
-          time: "Septiembre 2022 - Agosto 2022",
+          name: "Centroamerican University",
+          position: "Project Manager",
+          location: "Managua Nicaragua",
+          time: "September 2022 - August 2022",
           tech: [
             tech.html,
             tech.css,
@@ -161,12 +159,12 @@ const es = {
             tech.dotnet,
             tech.sqlserver,
           ],
-          description: `- Desarrollo de la plataforma web 'Expediente Docente' para el Departamento de Educación de la Universidad Centroamericana confiscada.`,
+          description: `- Development of the 'Teaching File' web platform for the Department of Education of the confiscated Central American University.`,
         },
         {
           name: "OOQIA",
-          position: "Practicante de Desarrollo Web",
-          location: "Managua, Nicaragua",
+          position: "Web Development Intern",
+          location: "Managua Nicaragua",
           time: "Septiembre 2023 - Presente",
           tech: [
             tech.wordpress,
@@ -180,19 +178,19 @@ const es = {
             tech.nuxtjs,
             tech.mysql,
           ],
-          description: `- Desarrollo de temas de WordPress, mejoras y soporte para los clientes de OOQIA.
-          - Construcción de sitios web sólidos para un rendimiento efectivo de SEO y una interfaz de usuario / experiencia de usuario fluida.`,
+          description: `- WordPress theme development, improvements and support for OOQIA clients.
+          - Building solid websites for effective SEO performance and smooth UI/UX.`,
         },
       ],
     },
     about_me: {
-      title: "Acerca de mí",
-      description: `¡Hola! Soy David Quintanilla Ruiz, un programador que también incursiona en el mundo del diseño. Me considero un aprendiz rápido, adaptable fácilmente a las necesidades actuales. Poseo excelentes habilidades de comunicación y sé cómo liderar equipos de manera efectiva. Mi experiencia se centra en crear y diseñar páginas web, centrándome particularmente en la interfaz de usuario y la experiencia del usuario.
-      Me desempeñé como Gerente de Proyecto para el desarrollo de la plataforma 'Expediente Docente' en la Universidad Centroamericana de Nicaragua, actualmente trabajo como Desarrollador Web en OOQIA y no estoy buscando nuevas posiciones.
-      Entre mis intereses se encuentran jugar videojuegos, ver videos de tecnología y dibujar ocasionalmente.`,
+      title: "About me",
+      description: `Hello! I am David Quintanilla Ruiz, a programmer who also ventures into the world of design. I consider myself a quick learner, easily adaptable to current needs. I have excellent communication skills and know how to lead teams effectively. My background is in creating and designing web pages, particularly focusing on user interface and user experience.
+      I worked as a Project Manager for the development of the 'Teaching Record' platform at the Central American University of Nicaragua, I currently work as a Web Developer at OOQIA and I am not looking for new positions.
+      My interests include playing video games, watching technology videos, and occasionally drawing.`,
     },
     personal_info: {
-      title: "Información Personal",
+      title: "Personal information",
     },
   },
   blog: {
@@ -200,7 +198,7 @@ const es = {
   },
   post: {
     author: "Autor",
-    share: "¡Compartir mi publicación!",
+    share: "Share my post!",
   },
 };
 
